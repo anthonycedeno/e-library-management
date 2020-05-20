@@ -70,6 +70,7 @@
     <Content Include="adminauthormanagement.aspx" />
     <Content Include="adminbookissuing.aspx" />
     <Content Include="adminpublishermanagement.aspx" />
+    <Content Include="adminusermanagement.aspx" />
     <Content Include="Bootstrap\CSS\bootstrap.min.css" />
     <Content Include="Bootstrap\JS\bootstrap.min.js" />
     <Content Include="Bootstrap\JS\jquery-3.4.1.slim.min.js" />
@@ -1721,7 +1722,7 @@
     <Content Include="Images\writer.png" />
     <Content Include="signup.aspx" />
     <Content Include="userlogin.aspx" />
-    <Content Include="userporfile.aspx" />
+    <Content Include="userprofile.aspx" />
     <Content Include="Web.config" />
     <Content Include="adminlogin.aspx" />
   </ItemGroup>
@@ -1746,6 +1747,13 @@
     </Compile>
     <Compile Include="adminpublishermanagement.aspx.designer.cs">
       <DependentUpon>adminpublishermanagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminusermanagement.aspx.cs">
+      <DependentUpon>adminusermanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminusermanagement.aspx.designer.cs">
+      <DependentUpon>adminusermanagement.aspx</DependentUpon>
     </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
@@ -1783,12 +1791,12 @@
     <Compile Include="userlogin.aspx.designer.cs">
       <DependentUpon>userlogin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="userporfile.aspx.cs">
-      <DependentUpon>userporfile.aspx</DependentUpon>
+    <Compile Include="userprofile.aspx.cs">
+      <DependentUpon>userprofile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="userporfile.aspx.designer.cs">
-      <DependentUpon>userporfile.aspx</DependentUpon>
+    <Compile Include="userprofile.aspx.designer.cs">
+      <DependentUpon>userprofile.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

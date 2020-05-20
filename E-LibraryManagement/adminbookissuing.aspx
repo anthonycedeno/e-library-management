@@ -31,11 +31,11 @@
                     <div class="row">
                         <div class="col-md-6">
                             <label>Member Name</label>
-                            <asp:TextBox CssClass="form-control" ID="TextBox3" runat="server" placeholder="Member Name" Enabled="false"></asp:TextBox>
+                            <asp:TextBox CssClass="form-control" ID="TextBox3" runat="server" placeholder="Member Name" ReadOnly="true"></asp:TextBox>
                         </div>
                         <div class="col-md-6">
                             <label>Book Name</label>
-                            <asp:TextBox CssClass="form-control" ID="TextBox4" runat="server" placeholder="Book Name" Enabled="false"></asp:TextBox>
+                            <asp:TextBox CssClass="form-control" ID="TextBox4" runat="server" placeholder="Book Name" ReadOnly="true"></asp:TextBox>
                         </div>
                         </div>
                     <br />
