@@ -149,7 +149,7 @@
             </div>
             <div class="col-md-7">
                 <center>
-                    <h4>User List</h4>
+                    <h4>Book Inventory List</h4>
                 </center>
                 <hr />
                 <br />
