@@ -77,10 +77,10 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                         <p>
                             <asp:LinkButton class="footerlinks" ID="LinkButton6" runat="server" OnClick="LinkButton6_Click">Admin Login</asp:LinkButton>
-                            <asp:LinkButton class="footerlinks" ID="LinkButton7" runat="server" Visible="false" OnClick="LinkButton7_Click">Author Management</asp:LinkButton>
-                            <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server" Visible="false" OnClick="LinkButton8_Click">Publisher Management</asp:LinkButton>
-                            <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server" Visible="false" OnClick="LinkButton9_Click">Book Inventory</asp:LinkButton>
-                            <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server" Visible="false" OnClick="LinkButton10_Click">Book Issuing</asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton7" runat="server" Visible="false" OnClick="LinkButton7_Click">Author Management </asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server" Visible="false" OnClick="LinkButton8_Click">Publisher Management </asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server" Visible="false" OnClick="LinkButton9_Click">Book Inventory </asp:LinkButton>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server" Visible="false" OnClick="LinkButton10_Click">Book Issuing </asp:LinkButton>
                             <asp:LinkButton class="footerlinks" ID="LinkButton11" runat="server" Visible="false" OnClick="LinkButton11_Click">Member Management</asp:LinkButton>
                         </p>
                     </div>

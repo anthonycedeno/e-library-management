@@ -111,6 +111,7 @@
                                             <asp:TextBox CssClass="form-control" ID="TextBox5" runat="server" placeholder="Full Address" TextMode="MultiLine" Rows="2"></asp:TextBox>
                                         </div>
                                     </div>
+                                    <br />
                                      <div class="row">
                                         <div class="col">
                                             <center>
@@ -129,7 +130,7 @@
                                         </div>
                                     </div>
                                     <hr />
-                                    <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Sign up" />
+                                    <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Sign up" OnClick="Button1_Click" />
     </div>
     </div>
                         </div>
