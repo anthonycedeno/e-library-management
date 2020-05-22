@@ -1724,6 +1724,7 @@
     <Content Include="signup.aspx" />
     <Content Include="userlogin.aspx" />
     <Content Include="userprofile.aspx" />
+    <Content Include="viewbooks.aspx" />
     <Content Include="Web.config" />
     <Content Include="adminlogin.aspx" />
   </ItemGroup>
@@ -1805,6 +1806,13 @@
     </Compile>
     <Compile Include="userprofile.aspx.designer.cs">
       <DependentUpon>userprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewbooks.aspx.cs">
+      <DependentUpon>viewbooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewbooks.aspx.designer.cs">
+      <DependentUpon>viewbooks.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
